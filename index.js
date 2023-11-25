@@ -9,7 +9,8 @@ const corsOptions = {
     credentials: true, // Allow cookies, authorization headers
   };
   
-app.use(cors(corsOptions));
+// app.use(cors(corsOptions));
+app.use(cors());
 
 app.use(express.json());
 let message = []
