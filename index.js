@@ -4,7 +4,7 @@ app = express()
 
 const corsOptions = {
     // origin: 'http://localhost:3000', // Allow requests from this origin
-    origin: 'https://sujit-hello-app.netlify.app/', // Allow requests from this origin
+    origin: 'https://sujit-hello-app.netlify.app', // Allow requests from this origin
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true, // Allow cookies, authorization headers
   };
